@@ -1,10 +1,10 @@
 pipeline {
-    agent { label 'AGENT-1' }
+    agent { label 'agent-1' }
     environment { 
         PROJECT = 'expense'
         COMPONENT = 'frontend'
         appVersion = ''
-        ACC_ID = '315069654700'
+        ACC_ID = '435238037339'
     }
     options {
         disableConcurrentBuilds()
